@@ -1,0 +1,33 @@
+.TodosOsEventos {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+  
+}
+
+.procurarEvento {
+  
+  width:300px;
+}
+
+.card-body {
+  padding: 20px;
+  background-color: #343a40;
+  border: 2px solid black;
+  border-radius: 8px;
+  color:white;
+  
+}
+.card-body button{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-color:grey;
+  color:grey;
+}
+.card-body button:hover{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  color:white;
+  border-color:white;
+}
+.col-md-12 {
+  padding:50px;
+}

@@ -1,0 +1,61 @@
+.voto {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.procurarCandidatoCotacoes {
+  width: 300px;
+}
+.voto h1 {
+  padding-top: 70px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.centrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-body-Centrado {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 8px;
+  width: 40%;
+  height: 80px;
+  font-size: 20px;
+  margin-bottom: 5px;
+  background-color: #343a40;
+  color: white;
+}
+.card-body-Centrado h7 {
+  margin-left: 30px;
+}
+
+.ee {
+  background-color: #343a40;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  color: grey;
+  justify-content: center;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 640px;
+  width: 7%;
+  height: 50px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.ee:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  color: white;
+  border-color: white;
+}

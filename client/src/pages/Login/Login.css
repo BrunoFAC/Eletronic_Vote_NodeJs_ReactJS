@@ -1,0 +1,74 @@
+/*FORMATACAO DO PLANO NO GERAL*/
+.login {
+  
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  
+  background-color: #343a40;
+  height: 100vh;/**/
+  padding: 20px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* "VOTO ELETRÓNICO" */
+.login .titulo {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/*CRIAR BORDER PARA O LOGIN*/
+.borderLogin {
+  background-color: #343a40;
+  border: 3px solid white;
+  
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+/* DENTRO DA BORDER "LOGIN" */
+.login h2 {
+  color: white;
+  font-size: 40px;
+}
+/* OS PLACEHOLDERS PARA METER O NOME*/
+.login input {
+  border: 2px solid black;
+  font-size: 20px;
+  width: 400px;
+  height: 70px;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+/*FORMATACAO DO BOTAO*/
+.borderLogin button {
+  width: 200px;
+  height: 70px;
+  margin: 10px;
+  justify-content: center;
+  background-color: #5d6770;
+  color: white;
+  border: 2px solid black;
+  border-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/*FORMATACAO DO RATO A PASSAR POR CIMA DO BOTAO*/
+.login button:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
